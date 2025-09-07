@@ -23,11 +23,11 @@ This combination allowed us to produce more faithful and recognizable generation
 ## Repository Structure
 
 ```plaintext
-├── training_fine_tuning_sdxl.ipynb   # Notebook for DreamBooth + LoRA fine-tuning
-├── GradioWebUI/                      # Folder for the Gradio deployment app
-│   ├── setup-main.py                 # Script to launch the Gradio WebUI
-│   └── webui_pictures/               # Assets (GIFs, logos, etc.) for the WebUI
-└── README.md                         # Project documentation
+├── training_fine_tuning_sdxl.ipynb   
+├── GradioWebUI/                     
+│   ├── setup-main.py                 
+│   └── webui_pictures/               
+└── README.md                         
 
 ## 📂 Resources
 
