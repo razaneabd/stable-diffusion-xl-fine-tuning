@@ -22,7 +22,7 @@ This combination allowed us to produce more faithful and recognizable generation
 
 ## Repository Structure
 
-```plaintext
+
 ├── training_fine_tuning_sdxl.ipynb   
 ├── GradioWebUI/                     
 │   ├── setup-main.py                 
