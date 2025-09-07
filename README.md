@@ -2,7 +2,7 @@
 
 This repository contains two main components:
 1. **Fine-tuning Notebook**: A Google Colab notebook to fine-tune **Stable Diffusion XL (SDXL)** on a custom dataset using **DreamBooth** combined with **LoRA (Low-Rank Adaptation)**.  
-2. **Deployment Notebook**: A Gradio-powered interactive WebUI that allows generating images of *Michael Scott* from *The Office* using the fine-tuned LoRA weights.
+2. **Deployment file**: A Gradio-powered interactive WebUI that allows generating images of *Michael Scott* from *The Office* using the fine-tuned LoRA weights.
 
 The project demonstrates how to adapt a large general-purpose text-to-image model (SDXL) to a niche subject by leveraging lightweight fine-tuning techniques.
 
@@ -22,10 +22,12 @@ This combination allowed us to produce more faithful and recognizable generation
 
 ## Repository Structure
 
-├── fine_tuning_sdxl.ipynb # Notebook for DreamBooth + LoRA fine-tuning
-├── gradio_deployment.ipynb # Notebook with Gradio WebUI for deployment
-├── webui_pictures/ # Logo and GIF assets for the Gradio app
-└── README.md # Project documentation
+```plaintext
+├── training_fine_tuning_sdxl.ipynb   # Notebook for DreamBooth + LoRA fine-tuning
+├── GradioWebUI/                      # Folder for the Gradio deployment app
+│   ├── setup-main.py                 # Script to launch the Gradio WebUI
+│   └── webui_pictures/               # Assets (GIFs, logos, etc.) for the WebUI
+└── README.md                         # Project documentation
 
 ## 📂 Resources
 
